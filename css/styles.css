@@ -1,6 +1,21 @@
 body {
     margin: 0;
-    font-family: 'Poppins', sans-serif;  }
+    font-family: 'Poppins', sans-serif; 
+   }
+
+   #loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff; /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000; /* Ensure it's above other content */
+  }
+  
   
 /* Vertical Navigation */
 .vertical-nav {
