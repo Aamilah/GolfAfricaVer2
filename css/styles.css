@@ -250,6 +250,9 @@ section {
   text-decoration: none;
   transition: background-color 0.3s, color 0.3s;
 }
+.section-subtitle.all-matches{
+  margin-top: 25px;
+}
 #section1 {
   background-color: #f0f0f0;
 }
@@ -344,6 +347,10 @@ text-decoration: line-through;}
     width: 100%;
     margin-left: 70px;
     bottom: 100%;
+  }
+  .text-content-title.all-matches{
+    width: 150%;
+    margin-top: 70px;
   }
   .text-content-title.news{
     width: 150%;
@@ -1516,6 +1523,15 @@ button:hover {
 }
 
 /* Image Content */
+.image-content.all-matches{
+  z-index: 1; 
+}
+.image-content.all-matches img {
+  height: 130%;
+  max-width: 100%;
+  margin-left: 17em;
+  object-fit: cover;
+}
 .image-content.player-sub {
   z-index: 1; 
 }
@@ -1541,13 +1557,21 @@ button:hover {
   text-align: center;
   padding: 20px;
 }
-
+.info-container.all-matches{
+  margin-top: 50px;
+  gap: 30px;
+}
 /* Info Block */
 .info-block {
   flex: 1;
 }
-
+.info-block img{
+  background-color: #FFFFFF;
+  padding: 10px;
+  border-radius: 16px;
+}
 .info-block p {
+  text-transform: uppercase;
   font-size: 18px;
   margin: 0;
 }
@@ -1698,5 +1722,60 @@ button:hover {
   font-size: 16px;
   line-height: 1.6;
 }
+/* all-matchers */
+.current-match-container {
+  margin-left: -70px;
+  margin-top: 100px;
+  width: 200%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
 
-       
+.current-match-block {
+  color: #fff; 
+  padding: 15px;
+  flex: 1 1 200px; 
+  max-width: 250px;
+  text-align: center;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  min-height: 150px; 
+  position: relative;
+}
+.current-match-block::after {
+  content: '';
+  position: absolute;
+  top: 30%; 
+  bottom: 10%; 
+  right: 0; 
+  width: 2px; 
+  background-color: #FFFFFF; 
+}
+
+.current-match-block:last-child::after {
+  display: none; /* Remove border for the last block */
+}
+.current-match-block img {
+  background-color: #fff; /* White background for blocks */
+  padding: 15px;
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+.current-match-block h3{
+  font-size: 20px;
+}
+.current-match-block .label {
+  font-weight: regular;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  color: #008000;
+  margin-top: 20px; 
+  margin-bottom: 10px; 
+  align-self:center; 
+}
