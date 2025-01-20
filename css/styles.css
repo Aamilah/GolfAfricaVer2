@@ -29,7 +29,7 @@ body {
   top: 0;
   width: 80px;
   height: 100vh;
-  background-color: #38A750; /* Default green */
+  background-color: #B00A08; /* Default green */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -61,7 +61,7 @@ body {
   margin: 50px 0;
 }
 .menu-icon:hover{
-  color: #880807;
+  color: #408206;
 }
 .social-icons {
   text-align: center;
@@ -104,7 +104,7 @@ body {
   flex-wrap: nowrap;
   height: 100%;
   width: 100%;
-  border-right: #880807 9px solid;
+  border-right: #408206 9px solid;
 }
 
 /* Left side (logo side) */
@@ -140,7 +140,7 @@ body {
   font-size: 20px;
 }
 .overlay-menu-left ul li a {
-  color: #38A750; /* White text for links */
+  color: #B00A08; /* White text for links */
   text-decoration: none;
   font-size: 26px;
   font-weight: bold;
@@ -150,7 +150,7 @@ body {
 
 .overlay-menu-left ul li a:hover {
   text-decoration: line-through;
-  color: #880808; /* Yellow hover effect */
+  color: #408206; /* Yellow hover effect */
 }
 
 /* Ensure the close button is in the top right */
@@ -201,17 +201,17 @@ section {
 
 .section-btn:hover {
   text-decoration: line-through;
-  background-color: #38A750;
+  background-color: #B00A08;
   color: #fff;
 }
 .section2-btn:hover {
   text-decoration: line-through;
-  background-color: #880807;
+  background-color: #408206;
   color: #fff;
 }
 .section3-btn:hover {
   text-decoration: line-through;
-  background-color: #38A750;
+  background-color: #B00A08;
   color: #fff;
 }
 .breadcrumb {
@@ -272,7 +272,7 @@ section {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #38A750;
+    background-color: #B00A08;
     color: white;
   }
   
@@ -313,10 +313,10 @@ text-decoration: line-through;}
 
 .contact-us-btn {
   position: fixed; 
-  left: 230%; 
+  left: 190%; 
   padding: 10px 20px;
   background-color: white;
-  color: #38A750;
+  color: #B00A08;
   font-size: 18px;
   border-radius: 5px;
   transition: background-color 0.3s, color 0.3s;
@@ -327,7 +327,7 @@ text-decoration: line-through;}
 }
 
 .contact-us-btn:hover {
-  background-color: #880808;
+  background-color: #408206;
   text-decoration: line-through;
   color: white;
 }
@@ -399,7 +399,7 @@ text-decoration: line-through;}
   
   .learn-more-btn:hover {
     text-decoration: line-through;
-    background-color: #880808;
+    background-color: #408206;
     color: #fff;
   }
   
@@ -437,25 +437,28 @@ text-decoration: line-through;}
     padding: 15px;
     width: 400px;
     margin: 0 auto;
+    border: #eaeaea solid 1px;
     height: 180px; /* Set a fixed height for all items */
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between; /* Space out the logo and details */
+    position: relative;
+    border-radius: 16px;
+    margin: 10px;
   }
-  
   .match-card {
     display: flex;
     align-items: center;
     padding: 10px;
     width: 100%;
     height: 100%; 
-    border-right: #000 solid 1px;
     box-sizing: border-box; 
+    justify-content: space-between; /* Space out the logo and details */
+    position: relative;
   }
-  
   .match-logo {
     width: 30%;
     height: 100%; 
+    margin-right: 20px;
     padding: 5px;
     display: flex;
     justify-content: center;
@@ -495,7 +498,7 @@ text-decoration: line-through;}
   }
   
   .live-score-btn {
-    background-color: #28a745;
+    background-color: #408206;
     color: #fff;
     border: none;
     padding: 8px 12px;
@@ -506,9 +509,12 @@ text-decoration: line-through;}
   }
   
   .live-score-btn:hover {
-    background-color: #218838;
+    background-color: #B00A08;
   }
-  
+  .live-score-btn a{
+    text-decoration: none;
+    color: #ffffff;
+  }
 
 /* Position Owl Navigation */
 .owl-nav {
@@ -539,12 +545,12 @@ text-decoration: line-through;}
 
 /* Hover Effects */
 .owl-nav i:hover {
-  color: #880807; /* Change color on hover */
+  color: #408206; /* Change color on hover */
   transform: scale(1.5);
 }
 .owl-dots {
   text-align: center;
-  padding-top: 35px;
+  padding-top: 45px;
 }
 .owl-dots button.owl-dot {
   width: 10px;
@@ -555,7 +561,7 @@ text-decoration: line-through;}
   margin: 0 3px;
 }
 .owl-dots button.owl-dot.active {
-  background-color: #880807;
+  background-color: #408206;
 }
 .owl-dots button.owl-dot:focus {
   outline: none;
@@ -609,7 +615,7 @@ text-decoration: line-through;}
 /* Top Row: Layout Adjustments */
 .item1 {
   grid-column: span 2; 
-  background-color: #880807;
+  background-color: #408206;
   color: #fff;
   position: relative;
   border-radius: 16px;
@@ -626,7 +632,7 @@ text-decoration: line-through;}
 .news1 {
   grid-column: span 2; 
   grid-row: span 2; 
-  background-color: #880807;
+  background-color: #408206;
   border-radius: 16px;
   color: #fff;
   position: relative;
@@ -708,7 +714,7 @@ text-decoration: line-through;}
   z-index: 3;
 }
 .grid-item-btn:hover{
-  background-color: #880807;
+  background-color: #408206;
 }
 .grid-item-link {
   display: inline-block;
@@ -722,7 +728,9 @@ text-decoration: line-through;}
   border-radius: 16px;
   text-transform: uppercase;
 }
-
+.grid-item-link:hover{
+  text-decoration: line-through;
+}
 .grid-item-link span {
   margin-left: 10px; /* Spacing for the arrow */
 }
@@ -735,7 +743,7 @@ text-decoration: line-through;}
 }
 
 .item2:hover::before, .item3:hover::before, .item4:hover::before, .item5:hover::before, .item6:hover::before, .item7:hover::before {
-  background-color: #38A750;
+  background-color: #B00A08;
 }
 /* Hide Headline on Hover */
 .item2:hover .headline, .item3:hover .headline, .item4:hover .headline , .item5:hover .headline , .item6:hover .headline , .item7:hover .headline{
@@ -758,7 +766,7 @@ text-decoration: line-through;}
 }
 .news1:hover::before, .news2:hover::before, .news3:hover::before, 
 .news4:hover::before, .news5:hover::before {
-  background-color: #38A750;
+  background-color: #B00A08;
 }
 
 /* Hide Headline on Hover */
@@ -786,7 +794,7 @@ text-decoration: line-through;}
   display: block;
 }
 .news-index-item-content .badge {
-  background-color: #b11515;
+  background-color: #2AA344;
   color: #fff;
   display: inline-block;
   padding: 7px 7px;
@@ -819,8 +827,9 @@ text-decoration: line-through;}
 
 .read-more:hover {
   background-color: #fff;
-  color: #880807;
-  border-color: #880807;
+  color: #408206;
+  border-color: #408206;
+  text-decoration: line-through;
 }
 
 /* index-video */
@@ -840,7 +849,7 @@ text-decoration: line-through;}
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   font-family: Arial, sans-serif;
   color: inherit;
-  background-color: #38A750;
+  background-color: #B00A08;
   margin: 10px;
   cursor: pointer;
 }
@@ -874,7 +883,7 @@ text-decoration: line-through;}
 
 .play-button i {
   font-size: 20px;
-  color: #880807;
+  color: #8B0000;
 }
 
 /* Video Details */
@@ -884,7 +893,7 @@ text-decoration: line-through;}
 }
 
 .video-category {
-  background-color: #008000;
+  background-color: #8B0000;
   color: #fff;
   display: inline-block;
   padding: 7px 7px;
@@ -946,166 +955,189 @@ text-decoration: line-through;}
   height: auto;
   padding-bottom: 20px;
 }
-/* Player Item Container */
-.player-item {
-  padding: 15px;
-  box-sizing: border-box;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  transition: transform 0.3s ease;
-}
 
-/* Card Wrapper */
-/* Player Container */
-.player-container {
+/* Container Styles */
+.pokemon-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-  padding: 20px;
 }
 
-/* Individual Player Card */
-.player-card {
-  width: 250px;
-  height: 500px;
+/* Pokemon Card */
+.pokemon-card {
+  width: 350px;
+  height: 430px;
+  margin-bottom: 20px;
+  border-radius: 16px;
   perspective: 1000px;
   transition: transform 0.3s ease;
+  position: relative;
+  box-shadow: 0px 10px 14px -10px rgba(0,0,0,0.1);}
+
+.pokemon-card:hover {
+  transform: scale(1.05);
 }
 
-.player-card:hover {
-  transform: scale(1.05); /* Slight zoom effect on hover */
-}
-
-/* Flip Card Container */
-.player-card-front,
-.player-card-back {
+/* Flip Card */
+.pokemon-card-front,
+.pokemon-card-back {
   position: absolute;
-  width: 100%;
+  top: 0;
+  left: 0;
+  width: 100%; 
   height: 100%;
-  border-radius: 16px;
   backface-visibility: hidden;
   overflow: hidden;
-}
-.brown-bg{
-  background-color: #a50000;
-}
-.green-bg{
-  background-color: #38A750;
-}
-.player-card-front {
-  padding: 0px;
-  color: white;
-}
-
-.player-card-back {
-  color: white;
-  transform: rotateY(180deg);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  box-sizing: border-box;
-}
-
-/* Player Image */
-.player-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  position: absolute;
-  bottom: 0;
-}
-.player-name {
-  position: absolute;
-  bottom: 20px;
-  left: 10px;
-}
-.player-name h2{
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.9);
-  font-size: 40px;
-  font-weight: bold;
-  line-height: 1;
-}
-.player-btn {
-  position: fixed; 
-  margin-top: 177%;
-  padding: 10px 70px;
-  background-color: white;
-  color: #38A750;
-  font-size: 18px;
-  border-radius: 5px;
-  transition: background-color 0.3s, color 0.3s;
-  text-align: center;
-  white-space: nowrap; 
-  z-index: 1000;
-  text-decoration: none;
-}
-
-.player-btn:hover {
-  background-color: #880808;
-  text-decoration: line-through;
-  color: white;
-}
-.player-stats p, .player-stats table {
-  margin: 0px 0 10px 0;
-}
-
-.player-stats table {
-  margin-bottom: 25px;
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.player-stats th, .player-stats td {
-  border: 1px solid #fff;
-  padding: 3px;
-  text-align: left;
-}
-
-/* Flip Effect */
-.player-card.is-flipped .player-card-front {
-  transform: rotateY(180deg);
-}
-
-.player-card.is-flipped .player-card-back {
-  transform: rotateY(0deg);
-}
-
-.player-card-front,
-.player-card-back {
   transition: transform 0.6s ease;
 }
 
-/* footer */
-footer {
+.pokemon-card.is-flipped .pokemon-card-front {
+  transform: rotateY(180deg);
+}
+
+.pokemon-card.is-flipped .pokemon-card-back {
+  transform: rotateY(0deg);
+}
+
+/* Front of the Card */
+.pokemon-card-front {
+  background-color: #fff;
+  border-radius: 16px;
+  position: relative;
+}
+
+/* Back of the Card */
+.pokemon-card-back {
+  background-color: #FDFCFA;
+  border-radius: 16px;
+  transform: rotateY(180deg);
+}
+
+/* pokemon-front */
+.pokemon-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Title and info positioning */
+.pokemon-card-title {
+  position: absolute;
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 10px;
+  border-radius: 16px;
+}
+.pokemon-title{
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  background-color: #fff;
-  margin-left: 80px;
-  padding: 40px;
-  width: 100%;
-  max-width: 1430px;
-  box-shadow: 0px -15px 15px -3px rgba(0,0,0,0.1);
+  align-items: center;
+  border-bottom: #000 solid 1px;
+  margin: 10px 0;
 }
 
-.footer-logo {
+.pokemon-title-name h2 {
+  color: #1E1E1E;
+  font-size: 20px;
+  margin: 5px 0;
+  font-weight: regular;
+}
+
+.pokemon-title-name h3 {
+  color: #1e1e1e5b;
+  font-weight: regular;
+  font-size: 14px;
+  margin: 0;
+}
+
+.pokemon-title-country {
+  width: 24px;
+  height: 16px;
+}
+.pokemon-button{
+  margin: 20px 0;
+}
+.pokemon-btn {
+  background-color: #408206;
+  color: #fff;
+  border: none;
+  padding: 12px 15px;
+  border-radius: 16px;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: auto; 
+}
+
+.pokemon-btn:hover {
+  background-color: #B00A08;
+  text-decoration: line-through;
+}
+.pokemon-card-content {
+  padding: 20px;
+}
+.pokemon-title-details{
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  text-align: left;
+  border-bottom: #000 solid 1px;
+  padding-bottom: 10px;
+}
+.pokemon-details-block p{
+  margin: 0;
+  line-height: 1.3;
+}
+.pokemon-details-block .top{
+  color: #818181;
+}
+.pokemon-stats {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 10px;
+  margin: 10px 0;
 }
 
+.pokemon-stat-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pokemon-stat-title {
+  font-size: 14px;
+  color: #666;
+}
+
+.pokemon-stat-value {
+  font-size: 14px;
+  color: #000;
+}
+.pokemon-section-title {
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+}
+.footer {
+  margin-top: 15px;
+  margin-left: 40px;
+  background-color: #fff;
+  box-shadow: 0px -10px 27px -6px rgba(0,0,0,0.1);
+}
+.footer h3{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
 .footer-logo img {
-  width: 80px;
+  max-width: 70%; /* Ensure responsiveness */
   height: auto;
 }
 
 .footer-logo h2 {
-  color: #000;
   font-size: 1.5rem;
   font-weight: bold;
   line-height: 1.2;
@@ -1115,42 +1147,48 @@ footer {
   color: #008000;
 }
 
-.footer-social {
-  display: flex;
-  gap: 15px;
+.footer ul {
+  padding: 0;
+  margin: 0;
+  list-style:circle;
+}
+.footer .get-in-touch {
+  list-style: none;
+}
+.footer a {
+  color: #333;
+  text-decoration: none;
+  font-size: 0.9rem;
 }
 
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer p {
+  font-size: 0.8rem;
+  margin: 0;
+}
 .footer-social a {
+  color: #333;
+  font-size: 1.5rem;
   text-decoration: none;
-  color: #000;
+  transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: #008000; /* Change to your preferred hover color */
+}
+
+.footer-social i {
   font-size: 1.5rem;
 }
-
-.footer-links, .footer-contact {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+footer .samaita-logo img {
+  height: 30px; /* Adjust height as needed */
+  width: auto;  /* Maintain aspect ratio */
+  margin-left: 5px; /* Add spacing if needed */
 }
 
-.footer-links h3, .footer-contact h3 {
-  font-size: 1rem;
-  font-weight: bold;
-}
-
-.footer-links a {
-  text-decoration: none;
-  color: #333;
-  font-size: 0.9rem;
-}
-
-.footer-contact p, .footer-contact a {
-  color: #333;
-  font-size: 0.9rem;
-}
-
-.footer-contact a {
-  text-decoration: none;
-}
 
 /* country-players */
 .country-players{
@@ -1266,7 +1304,7 @@ footer {
 
 /* news-all */
 .all-news{
-  background-color: #880807;
+  background-color: #408206;
 }
 .all-news-content{
   margin-left: 40px;
@@ -1295,7 +1333,7 @@ footer {
 }
 
 .news-all:hover::before {
-  background-color: #38A750;
+  background-color: #B00A08;
 }
 
 /* Hide Headline on Hover */
@@ -1359,7 +1397,7 @@ footer {
 
 .contact-form {
   color: #fff;
-  background-color: #38A750;
+  background-color: #B00A08;
   flex: 2;
   padding: 40px;
 }
@@ -1412,7 +1450,7 @@ button {
 
 button:hover {
   text-decoration: line-through;
-  background-color: #880808;
+  background-color: #408206;
   color: #fff;
 }
 
@@ -1495,7 +1533,7 @@ button:hover {
 .circular-image-container {
   width: 850px;
   height: 770px;
-  background-color: #880808; 
+  background-color: #408206; 
   border-radius: 50%;
   position: absolute; 
   top: 50%; 
@@ -1723,18 +1761,20 @@ button:hover {
   line-height: 1.6;
 }
 /* all-matchers */
+
 .current-match-container {
   margin-left: -70px;
-  margin-top: 100px;
   width: 200%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
+  border-radius: 16px;
+  background-color: #FFFFFF;
 }
 
 .current-match-block {
-  color: #fff; 
+  color: #000; 
   padding: 15px;
   flex: 1 1 200px; 
   max-width: 250px;
@@ -1753,16 +1793,16 @@ button:hover {
   bottom: 10%; 
   right: 0; 
   width: 2px; 
-  background-color: #FFFFFF; 
+  background-color: #000; 
 }
 
 .current-match-block:last-child::after {
   display: none; /* Remove border for the last block */
 }
 .current-match-block img {
-  background-color: #fff; /* White background for blocks */
+  border-radius: 16px;
   padding: 15px;
-  max-width: 100%;
+  width: 80%;
   height: auto;
   margin-top: 10px;
 }
@@ -1778,4 +1818,197 @@ button:hover {
   margin-top: 20px; 
   margin-bottom: 10px; 
   align-self:center; 
+}
+/* Pagination Container */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin: 20px 40px;
+}
+
+/* Pagination Links */
+.pagination-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #408206;
+  border-radius: 50%;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.pagination-link:hover {
+  background-color: #f0f0f0;
+}
+
+.pagination-link.active {
+  background-color: #408206;
+  color: #ffffff;
+}
+
+/* Pagination Arrows */
+.pagination-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #408206;
+  background-color: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.pagination-arrow:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.1);
+}
+
+/* match-calendar */
+.match-calendar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.calendar-container {
+  width: 100%;
+  max-width: 1250px;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.calendar-left h1 {
+  font-size: 90px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.calendar-right {
+  text-align: right;
+}
+
+.calendar-right h2 {
+  font-size: 45px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.calendar-right h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.calendar-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.calendar-table th,
+.calendar-table td {
+  border: 1px solid #eaeaea;
+  text-align: left;
+  position: relative; 
+  padding: 20px;
+}
+
+.calendar-table th {
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #B00A08;
+  text-align: center;
+}
+
+.calendar-table td {
+  height: 100px;
+  vertical-align: top; /* Ensures the content aligns properly */
+}
+
+.date-number {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+}
+/* Style for the container holding multiple logos */
+.tour-logos {
+  display: flex; 
+  justify-content: left; 
+  align-items: left; 
+  gap: 10px;
+  position: absolute;
+  bottom: 5px;  
+  flex-wrap: wrap; 
+}
+
+/* Styling for the individual logos */
+.tour-logo {
+  width: 50px; 
+  height: auto; 
+  display: block;
+  margin: 0; 
+}
+
+.pre-footer{
+  height: auto;
+}
+.pre-footer-content{
+  margin-left: 30px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  background-color: #408206;
+  color: #FFFFFF;
+  border-radius: 16px;
+}
+.pre-footer-text{
+  padding: 50px 50px ;
+}
+.pre-footer-text h1{
+  font-size: 48px;
+  font-weight: bold;
+}
+.pre-footer-img{
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: fill;
+}
+.pre-footer-img img{
+  padding: 20px;
+  width: 70%;
+}
+.today-highlight {
+  background-color: #eaeaea; /* Highlight color */
+  color: #fff; /* Text color */
+  font-weight: bold;
+  text-align: center;
 }

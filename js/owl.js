@@ -6,6 +6,7 @@ $(document).ready(function () {
     dots: true, // Enable pagination dots
     autoplay: true, // Enable auto-slide
     autoplayTimeout: 5000, // Slide every 5 seconds
+    autoplayHoverPause: true, // Pause on hover
     navText: [
       '<i class="fas fa-arrow-left"></i>', /* Left Arrow */
       '<i class="fas fa-arrow-right"></i>' /* Right Arrow */
@@ -18,7 +19,7 @@ $(document).ready(function () {
         items: 2, // Show 2 items on tablets
       },
       1200: {
-        items: 4.5, // Show 3 items on desktops
+        items: 3, // Show 3 items on desktops
       },
     },
     onInitialized: function () {
@@ -37,6 +38,7 @@ $(document).ready(function () {
     dots: true, // Enable pagination dots
     autoplay: true, // Enable auto-slide
     autoplayTimeout: 5000, // Slide every 5 seconds
+    autoplayHoverPause: true, // Pause on hover
     navText: [
       '<i class="fas fa-arrow-left"></i><span class="custom-divider">|</span>', /* Left Arrow */
       '<i class="fas fa-arrow-right"></i>' /* Right Arrow */
@@ -63,6 +65,7 @@ $(document).ready(function () {
     dots: true, // Enable pagination dots
     autoplay: true, // Enable auto-slide
     autoplayTimeout: 5000, // Slide every 5 seconds
+    autoplayHoverPause: true, // Pause on hover
     navText: [
       '<i class="fas fa-arrow-left"></i><span class="custom-divider">|</span>', /* Left Arrow */
       '<i class="fas fa-arrow-right"></i>' /* Right Arrow */
@@ -75,7 +78,7 @@ $(document).ready(function () {
         items: 2, // Show 2 items on tablets
       },
       1200: {
-        items: 4.5, // Show 3 items on desktops
+        items: 3.2, // Show 3 items on desktops
       },
     },
   });

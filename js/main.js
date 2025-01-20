@@ -13,9 +13,9 @@ function openVideoModal(element) {
     modal.style.display = "none";
   }
 
-  // Add event listener to flip the card
-document.querySelectorAll(".player-card").forEach(card => {
-card.addEventListener("click", function() {
-this.classList.toggle("is-flipped");
-});
+// Add event listener to flip the card
+document.querySelectorAll(".pokemon-card").forEach(card => {
+  card.addEventListener("click", function() {
+    this.classList.toggle("is-flipped");
+  });
 });
